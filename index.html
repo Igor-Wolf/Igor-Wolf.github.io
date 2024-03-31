@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Barbosa | Portfolio</title>
+    <meta name="description"
+        content="Protfólio do desenvolvedor para compartilhar projetos e habilidades desenvolvidas">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção Cabeçalho -->
+
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="menu menu--principal">
+                <li class="menu__item">
+                    <a class="menu__link active" href="#home">
+                        <span class="menu__text">Home</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#projetos">
+                        <span class="menu__text">Projetos</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#sobre">
+                        <span class="menu__text">Sobre</span>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="#contatos">
+                        <span class="menu__text">Contato</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__brand">
+            <a href="#home">
+                <img class="brand__logo" src="assets/images/lobo.png" alt="Logo Igor-Wolf">
+            </a>
+
+        </div>
+        <div class="header__toggle">
+            <i id="toggleTheme" class="bi bi-sun"></i>
+        </div>
+    </header>
+
+    <nav class="nav--mobile">
+        <ul class="menu menu--mobile">
+            <li class="menu__item">
+                <a class="menu__link active" href="#home">
+                    <i class="menu__icon bi bi-house-door"></i>
+                    <span class="menu__text">Home</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#projetos">
+                    <i class="menu__icon bi bi-window-stack"></i>
+                    <span class="menu__text">Projetos</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#sobre">
+                    <i class="menu__icon bi bi-person"></i>
+                    <span class="menu__text">Sobre</span>
+                </a>
+            </li>
+            <li class="menu__item">
+                <a class="menu__link" href="#contatos">
+                    <i class="menu__icon bi bi-envelope"></i>
+                    <span class="menu__text">Contato</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção apresentação -->
+
+    <main>
+        <div id="home" class="main__content">
+            <h1><b>Soluções criativas</b></h1>
+            <p>Igor Reis Barbosa, Passos-MG, Engenheiro e Programador.</p>
+            <ul class="menu menu--social">
+                <li>
+                    <a class="menu__link" href="https://github.com/Igor-Wolf">
+                        <i class="menu__icon bi-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.linkedin.com/in/igor-reis-barbosa-4412901b4/">
+                        <i class="menu__icon bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="menu__link" href="https://www.instagram.com/igorreisbarbosa/">
+                        <i class="menu__icon bi bi-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+            <a href="#projetos">
+                <button class="btn btn--primary">
+                    <span>Ver Projetos</span>
+                    <i class="bi bi-arrow-down-right"></i>
+                </button>
+            </a>
+        </div>
+        <div class="main__content2">
+            <iframe src="https://www.youtube.com/embed/kXptPzKNMq4"
+                title="NEFFEX - Rumores 💋 [Copyright Grátis](legenda em  português)" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+    </main>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção habilidades e tecnologias -->
+
+    <section class="skills">
+        <h2>Conhecimento nas seguintes tecnologias</h2>
+        <ul class="skills__list">
+            <li class="skills__item">
+                <img id="html" class="skills__logo" src="assets/images/html.png" alt="Logo Html">
+            </li>
+            <li class="skills__item">
+                <img id="css" class="skills__logo" src="assets/images/css.png" alt="Logo css">
+            </li>
+            <li class="skills__item">
+                <img id="js" class="skills__logo" src="assets/images/js.png" alt="Logo js">
+            </li>
+            <li class="skills__item">
+                <img id="python" class="skills__logo" src="assets/images/pyton.png" alt="Logo python">
+            </li>
+            <li class="skills__item">
+                <img id="csharp" class="skills__logo" src="assets/images/csharp.png" alt="Logo C#">
+            </li>
+            <li class="skills__item">
+                <img id="qtdesign" class="skills__logo" src="assets/images/qtdesign.png" alt="Logo qtdesign">
+            </li>
+            <li class="skills__item">
+                <img id="unity" class="skills__logo" src="assets/images/unity.png" alt="Logo unity">
+            </li>
+        </ul>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção projetos -->
+
+    <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <div class="projects__container">
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/demo.png" alt="Scree jogo">
+                <div class="card__body">
+                    <h3 class="card__title">AnimeAI</h3>
+                    <p class="card__description">Clone da Netflix/Cruchroll para animes</p>
+                    <ul class="card__list">
+                        <li>Listagem de Animes disponíveis</li>
+                        <li>FrontEnd de uma página de streaming</li>
+                        <li>Steaming and Chill</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img id="html" class="skills__logo" src="assets/images/html.png" alt="Logo Html">
+                        </li>
+                        <li class="skills__item">
+                            <img id="css" class="skills__logo" src="assets/images/css.png" alt="Logo css">
+                        </li>
+                        <li class="skills__item">
+                            <img id="js" class="skills__logo" src="assets/images/js.png" alt="Logo js">
+                        </li>
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://github.com/Igor-Wolf/Utilitarios">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Igor-Wolf/Utilitarios">
+                            <button class="btn ">
+                                <span>Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="assets/images/util.jpg" alt="Scree jogo">
+                <div class="card__body">
+                    <h3 class="card__title">Utilitários</h3>
+                    <p class="card__description">Programa para download de videos</p>
+                    <ul class="card__list">
+                        <li>Download de videos do YouTube</li>
+                        <li>Conversor de Video em Audio</li>
+                        <li>Editor de Video</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img id="python" class="skills__logo" src="assets/images/pyton.png" alt="Logo python">
+                        </li>
+                        <li class="skills__item">
+                            <img id="qtdesign" class="skills__logo" src="assets/images/qtdesign.png" alt="Logo Html">
+                        </li>
+
+
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://github.com/Igor-Wolf/Utilitarios">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Igor-Wolf/Utilitarios">
+                            <button class="btn ">
+                                <span>Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/smartmockups_luexuskl.jpg" alt="Scree jogo">
+                <div class="card__body">
+                    <h3 class="card__title">My First FPS</h3>
+                    <p class="card__description">Literalmente meu primeiro protótipo de jogo de tiros</p>
+                    <ul class="card__list">
+                        <li>Jogo de tiros</li>
+                        <li>Variedade de Armas</li>
+                        <li>Variedade de inimigos</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img id="unity" class="skills__logo" src="assets/images/unity.png" alt="Logo Unity">
+                        </li>
+                        <li class="skills__item">
+                            <img id="csharp" class="skills__logo" src="assets/images/csharp.png" alt="Logo csharp">
+                        </li>
+
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://play.unity.com/mg/fps/webgl-builds-380714">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Igor-Wolf/Meu-Primeiro-Jogo-FPS">
+                            <button class="btn ">
+                                <span>Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card card--reverse">
+                <img class="card__cover" src="assets/images/gen.jpg" alt="Scree jogo">
+                <div class="card__body">
+                    <h3 class="card__title">Genius</h3>
+                    <p class="card__description">Jogo de sequencia Genius</p>
+                    <ul class="card__list">
+                        <li>Jogo de memorização</li>
+                        <li>Compatível com mobile</li>
+                        <li>Melhor Score</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img id="html" class="skills__logo" src="assets/images/html.png" alt="Logo Html">
+                        </li>
+                        <li class="skills__item">
+                            <img id="css" class="skills__logo" src="assets/images/css.png" alt="Logo css">
+                        </li>
+                        <li class="skills__item">
+                            <img id="js" class="skills__logo" src="assets/images/js.png" alt="Logo js">
+                        </li>
+
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://igor-wolf.github.io/JogoGenius/">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Igor-Wolf/JogoGenius">
+                            <button class="btn ">
+                                <span>Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects__card">
+                <img class="card__cover" src="assets/images/demo.png" alt="Scree jogo">
+                <div class="card__body">
+                    <h3 class="card__title">Simulador de Piano</h3>
+                    <p class="card__description">Jogo que simula um piano virtual</p>
+                    <ul class="card__list">
+                        <li>Musica & Entretenimento</li>
+                        <li>Tocar musicas pré-estabelecidas</li>
+                        <li>Tocar piano</li>
+                    </ul>
+                    <ul class="skills__list">
+                        <li class="skills__item">
+                            <img id="html" class="skills__logo" src="assets/images/html.png" alt="Logo Html">
+                        </li>
+                        <li class="skills__item">
+                            <img id="css" class="skills__logo" src="assets/images/css.png" alt="Logo css">
+                        </li>
+                        <li class="skills__item">
+                            <img id="js" class="skills__logo" src="assets/images/js.png" alt="Logo js">
+                        </li>
+
+                    </ul>
+                    <div class="card__buttons">
+                        <a href="https://igor-wolf.github.io/Simulador-de-Teclado/">
+                            <button class="btn btn--primary">
+                                <span>Prévia</span>
+                                <i class="bi bi-arrow-up-right"></i>
+                            </button>
+                        </a>
+                        <a href="https://github.com/Igor-Wolf/Simulador-de-Teclado">
+                            <button class="btn ">
+                                <span>Repositório</span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div id="container__endRepositorio">
+                <a href="https://github.com/Igor-Wolf">
+                    <button class="final__repositorio btn btn--primary">
+                        <span>Ver Todos os Projetos</span>
+                        <i class="bi bi-arrow-up-right"></i>
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção sobre -->
+
+    <section id="sobre" class="about">
+        <div class="about__content1">
+            <img class="about__photo" src="assets/images/perfil.jpg" alt="Imagem do perfil">
+            <div class="about__description">
+                <h2>Sobre mim</h2>
+                <p> Igor Reis Barbosa. Apaixonado por jogos, música e programação, meu primeiro protótipo de blog foi na
+                    adolescência quando tive contato com HTML e CSS através do Dreamweaver. Na graduação, fui monitor de
+                    Programação e a partir de então desenvolvi um grande interesse na área. Atualmente, estudo sobre
+                    desenvolvimento de software e atuo como Engenheiro e Programador.
+                </p>
+                <div class="about__icons">
+                    <i class="bi bi-translate"></i>
+                    <span>Inglês: Intermediário | Espanhol: Básico</span>
+                </div>
+                <div class="description__buttons">
+                    <a href="https://www.linkedin.com/in/igor-reis-barbosa-4412901b4/" target="_blank">
+                        <button class="btn btn--primary">
+                            <span>Conecte-se Comigo</span>
+                            <i class="bi bi-arrow-up-right"></i>
+                        </button>
+                    </a>
+                    <a href="assets/docs/Curriculo Igor Reis Barbosa.pdf">
+                        <button class="btn">
+                            <span>Currículo</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção formação -->
+
+        <div class="about__content2">
+            <div class="col1">
+                <div class="row1">
+                    <h3>Formação</h3>
+                    <h4>Sistemas de Informação</h4>
+                    <span>Ago 2023 - Atualmente</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Universidade Estácio de Sá</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Gaduação - Bacharelado</span>
+                    </div>
+                    <h4>Engenharia Civil</h4>
+                    <span>Ago 2016 - Ago 2021</span>
+                    <div class="about__icons">
+                        <i class="bi bi-bank"></i>
+                        <span>Universidade do Estado de Minas Gerais</span>
+                    </div>
+                    <div class="about__icons">
+                        <i class="bi bi-mortarboard"></i>
+                        <span>Gaduação - Bacharelado</span>
+                    </div>
+                </div>
+                <div class="row2">
+                    <h3>Experiências</h3>
+                    <h4>Engenheiro Civil</h4>
+                    <span>Alicerce Construções e Serviços LTDA 2022 - 2023</span>
+                    <span>Responsável por obras e serviços no Sul de Minas Gerais. Foco em limpeza
+                        urbanda e análise de contratos com prefeituras.
+                        <ul class="about__list">
+                            <li class="about__item">Elaboração de projetos;</li>
+                            <li class="about__item">Gerenciamento de equipes;</li>
+                            <li class="about__item">Fiscalização de serviços.</li>
+                        </ul>
+                        <h4>Estagiário</h4>
+                        <span>Prefeitura Municipal de São João Batista do Glória 2021 - 2021</span>
+                        <span>Integrante da equipe responsável pela regularização fundiária do bairro Jardim Planalto,
+                            na cidade de São João Batista do Glória - Minas Gerais.
+                            <ul class="about__list">
+                                <li class="about__item">Levantamento topográfico;</li>
+                                <li class="about__item">Elaboração de Projetos;</li>
+                                <li class="about__item">Elaboração de documentos.</li>
+                            </ul>
+                            <h4>Monitor</h4>
+                            <span>UEMG – Universidade do Estado de Minas Gerais 2019 - 2019</span>
+                            <span>Monitor voluntário na matéria de Programação lecionada nas engenharias Civil, de
+                                Produção e Ambiental, sob a supervisão do professor.
+                                <ul class="about__list">
+                                    <li class="about__item">Aplicação da Programação;</li>
+                                    <li class="about__item">Desenvolvimento da Didática;</li>
+                                    <li class="about__item">Desenvolvimento do Raciocinio lógico.</li>
+                                </ul>
+                </div>
+            </div>
+            <div class="col2">
+                <h3>Cursos</h3>
+                <div id="accordion">
+                    <div class="accordion__item active">
+                        <button class="accordion__header start">
+                            <span>Formação Python Developer</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Mar 2024. 64h.
+                            </p>
+                            <p>
+                                Aprendizado da sintaxe básica da linguagem até integrações com APIs e projetos práticos
+                                explorando
+                                os principais frameworks como Flask e Django. Modelagem de banco de dados com a
+                                ferramenta do Sqlalchemy e criação de aplicações ainda mais
+                                ricas com persistência de dados com MongoDB utilizando a biblioteca do Pymongo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Formação Unity 3D Game Developer </span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. (Cursando). 90h.
+                            </p>
+                            <p>
+                                Aprendizado sobre a Plataforma Unity e suas ferramentas,
+                                abordando as mecânicas e os elementos para a criação de experiências jogáveis, bem como
+                                aprendizado prático dos detalhes das fases de planejamento, criação e
+                                publicação de jogos com Unity.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Formação Fundamentos de Inteligência Artificial</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Jan 2024. 10h.
+                            </p>
+                            <p>
+                                Aprendizado em três módulos, com imersão profunda e acessível nos fundamentos,
+                                aplicações práticas e pilares
+                                essenciais da Inteligência Artificial (IA).
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Formação .NET Developer</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Dez 2023. 93h.
+                            </p>
+                            <p>
+                                Aprendizado da sintaxe da linguagem além de insights sobre como desenvolver APIs
+                                robustas para criar
+                                aplicações de alto nível, testes unitários para criar aplicações resilientes, banco de
+                                dados relacional e não relacionais (SQL e NoSQL) na prática.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Bootcamp Potência Tech iFood – Desenvolvimento de Jogos </span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Digital Innovation One. Nov 2023. 77h.
+                            </p>
+                            <p>
+                                Aprendizado em desenvolvimento inicial de jogos utilizando JavaScript e explorando os
+                                princípios
+                                fundamentais desse processo a partir de uma perspectiva de mercado e carreira. Abordando
+                                conceitos como variáveis, escopo, tipos de dados, orientação a protótipo, funções e
+                                manipulação de listas treinando o aprendizado em projetos práticos ao longo do bootcamp,
+                                desenvolvendo jogos e compreendendo os fundamentos de uma carreira nessa área.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Sketchup Básico</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Escola Técnica Leiaut Carielo. 2020. 15h.
+                            </p>
+                            <p>
+                                Aprendizado em elaboração de maquetes 3D utilizando software Vray para garantir uma
+                                melhor perfomaçe após a renderização, com texturas realistas aplicadas.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>CypeCAD Básico </span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Escola Técnica Leiaut Carielo. 2020. 25h.
+                            </p>
+                            <p>
+                                Aprendizado em lançamento de cargas, transcorrendo todo o cálculo de uma edificação
+                                desde sua concepção em CAD até a importação para o CYPE e posterior detalhamento.
+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Autodesk Revit – Arquitetônico Básico</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                EngenhaBIM Projetos e Treinamentos. 2019. 16h.
+                            </p>
+                            <p>
+                                Aprendizado em modelagem 3D com o software Revit transcorrendo na elaboração de umSa
+                                planta baixa até o projeto 3D de um sobrado. Desenvolvendo conhecimentos sobre a
+                                metodologia BIM e
+                                seus paradigmas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>AUTOCAD</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Universidade Aberta Integrada de Minas Gerais, UAITEC. 2018. 80h.
+                            </p>
+                            <p>
+                                Aprendizado de desenvolvimento de plantas e desenhos tecnicos com a utilização do
+                                Software AutoCad. Perpassando por normas tecnicas e boas práticas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Curso de Informática</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Easycomp Internacional. 2015. 202h.
+                            </p>
+                            <p>
+                                Introdução ao Windows; Internet Explorer e Windows Mail; Access 2010; Word; Excel; Power
+                                Point; CorelDraw; Photoshop; Flash; Fireworks Easy; Indesign; Dreamweaver+HTML.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header">
+                            <span>Curso Profissionalizante</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Easycomp Internacional. 2015. 85h.
+                            </p>
+                            <p>
+                                Departamento de Pessoal; Automação de Escritório; Propaganda e Marketing; Noções Básicas
+                                de Contabilidade; Noções Básicas de Administração; Telemarketing; Desenvolvimento
+                                Profissional; Trabalho em Equipe.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <button class="accordion__header end">
+                            <span>Digitação Computadorizada</span>
+                            <i class="bi bi-caret-down-fill"></i>
+                        </button>
+                        <div class="accordion__body">
+                            <p>
+                                Easycomp Internacional. 2012. 30h.
+                            </p>
+                            <p>
+                                Desenvolvimento de habilidades de digitação em meios computadorizados.
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+    </section>
+
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção Contate-me -->
+
+    <section id="contato" class="contact">
+        <h2 id="contatos">Contate-me</h2>
+        <p>Estou disponível para serviços e novas conexões. Contate-me via e-mail e conecte-se comigo através das minhas
+            redes sociais. </p>
+        <ul class="menu menu--social">
+            <li>
+                <a class="menu__link" href="https://github.com/Igor-Wolf">
+                    <i class="menu__icon bi-github">
+                        <span class="descricao__interna"> GitHub</span>
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.linkedin.com/in/igor-reis-barbosa-4412901b4/">
+                    <i class="menu__icon bi bi-linkedin">
+                        <span class="descricao__interna"> LinkedIn</span>
+                    </i>
+                </a>
+            </li>
+            <li>
+                <a class="menu__link" href="https://www.instagram.com/igorreisbarbosa/">
+                    <i class="menu__icon bi bi-instagram">
+                        <span class="descricao__interna"> Instagram</span>
+                    </i>
+                </a>
+            </li>
+        </ul>
+        <a href="mailto:igorengenheiroprogramador@gmail.com" target="_blank">
+            <button class="btn btn--primary">
+                <span id="finalButton">@email</span>
+                <i class="bi bi-arrow-up-right"></i>
+            </button>
+        </a>
+
+
+    </section>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------------- Seção rodapé -->
+
+    <footer>
+        <p>
+            © 2024. Todos os Direitos Reservados à Igor Barbosa. Desenvolvido por <a
+                href="https://github.com/Igor-Wolf">IB</a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
