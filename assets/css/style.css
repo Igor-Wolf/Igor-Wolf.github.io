@@ -75,6 +75,14 @@ html[data-theme="light"] #unity {
     filter:grayscale(50) brightness(0) contrast(1) invert(0);
 }
 
+html[data-theme="light"] #react {
+    filter:grayscale(50) brightness(0) contrast(1) invert(0);
+}
+
+html[data-theme="light"] #next {
+    filter: invert(0);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -554,6 +562,27 @@ footer p {
     filter:grayscale(50) brightness(.4) contrast(.0); 
 
 }
+
+#react{
+
+    height: 2.4rem;
+    width: 2.4rem;
+    filter:grayscale(50) brightness(.8) contrast(1); 
+
+}
+
+#next{
+
+    height: 2.4rem;
+    width: 2.4rem;
+    filter:invert(1) brightness(.5); 
+    
+
+}
+
+
+
+
 
 .tooltip {
     position: absolute;
