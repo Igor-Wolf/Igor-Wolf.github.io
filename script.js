@@ -4,6 +4,7 @@ const accordionHeaders = document.querySelectorAll(".accordion__header")
 const menuLinks = document.querySelectorAll(".menu__link")
 
 var temaSalvo = localStorage.getItem('tema');
+var firsttime = true;
 
 
 function salvarTema(tema) {
@@ -84,6 +85,15 @@ else {
 
 }
 
+
+if (firsttime) {
+    
+    rootHtml.setAttribute("data-theme", "dark");
+    tooltip.textContent = 'Nox';
+    salvarTema('dark')
+
+    firsttime = false;
+}
 
 
 
