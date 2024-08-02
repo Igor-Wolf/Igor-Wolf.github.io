@@ -89,7 +89,6 @@ else {
 if (firsttime) {
     
     rootHtml.setAttribute("data-theme", "dark");
-    tooltip.textContent = 'Nox';
     salvarTema('dark')
 
     firsttime = false;
