@@ -96,6 +96,19 @@ if (firsttime) {
 }
 
 
+  // Captura o referer da página anterior
+  const reff = document.referrer;        
+        
+  // Faz uma requisição ao backend
+  fetch('https://backend-test-sable.vercel.app/api/count', {
+      method: 'GET',
+      headers: {
+          'Content-Type': 'application/json',
+          'Origin': reff, // Cabeçalho Referer
+          'Url' : window.location.href
+      }
+  })  
+
 
 
 
