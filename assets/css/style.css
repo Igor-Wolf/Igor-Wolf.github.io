@@ -439,6 +439,7 @@ main,
     border-radius: 0.5rem;
     object-fit: cover;
     object-position: center;
+    max-height: 400px;
 }
 
 .card__body {
